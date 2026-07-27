@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Frontera Libre | Luxury Outlet</title>
+
+    <meta name="description" content="Frontera Libre | Bolsas originales de Estados Unidos. Descubre marcas premium seleccionadas a precios outlet.">
+    <meta name="keywords" content="bolsas originales, luxury outlet, bolsas premium, marcas de lujo, Estados Unidos">
+    <meta name="author" content="Frontera Libre">
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- Tipografías -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png">
+
 </head>
 
 <body>
@@ -23,21 +33,23 @@
     </div>
 
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Colección</a>
-        <a href="#">Marcas</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contacto</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#coleccion">Colección</a>
+        <a href="#marcas">Marcas</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 
-    <div class="cart">
+    <div class="cart" aria-label="Carrito de compras">
         👜 <span>0</span>
     </div>
 
 </header>
 
 
-<section class="hero">
+<main>
+
+<section class="hero" id="inicio">
 
     <div class="hero-text">
 
@@ -50,16 +62,82 @@
         </h2>
 
         <p>
-            Descubre una selección de marcas premium a precios outlet.
+            Descubre una selección exclusiva de marcas premium a precios outlet.
+            Piezas auténticas para quienes buscan estilo y calidad.
         </p>
 
-        <button>
+        <a href="#coleccion" class="btn">
             Explorar colección
-        </button>
+        </a>
 
     </div>
 
 </section>
+
+
+<section id="coleccion">
+
+    <h2>
+        Nuestra colección
+    </h2>
+
+    <p>
+        Próximamente encontrarás nuestras piezas seleccionadas.
+    </p>
+
+</section>
+
+
+<section id="marcas">
+
+    <h2>
+        Marcas premium
+    </h2>
+
+    <p>
+        Seleccionamos marcas reconocidas por su calidad y diseño.
+    </p>
+
+</section>
+
+
+<section id="nosotros">
+
+    <h2>
+        Sobre Frontera Libre
+    </h2>
+
+    <p>
+        Somos una boutique especializada en productos originales
+        seleccionados desde Estados Unidos.
+    </p>
+
+</section>
+
+
+<section id="contacto">
+
+    <h2>
+        Contacto
+    </h2>
+
+    <p>
+        Próximamente podrás contactarnos para compras y consultas.
+    </p>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Frontera Libre. Todos los derechos reservados.
+    </p>
+
+</footer>
+
 
 <script src="script.js"></script>
 
